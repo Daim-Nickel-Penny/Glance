@@ -5,21 +5,9 @@
   "manifest_version": 3,
   "permissions": ["storage", "activeTab", "scripting"],
   "action": {
-    "default_popup": "src/popup.html",
-    "default_icon": {
-      "16": "/icon/icon_16.png",
-      "32": "/icon/icon_32.png",
-      "48": "/icon/icon_48.png",
-      "128": "/icon/icon_128.png"
-    }
+    "default_popup": "src/popup.html"
   },
   "background": {
     "service_worker": "src/thread-runner.js"
-  },
-  "icons": {
-    "16": "/icon/icon_16.png",
-    "32": "/icon/icon_32.png",
-    "48": "/icon/icon_48.png",
-    "128": "/icon/icon_128.png"
   }
 }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bionic Reader</title>
+    <link rel="stylesheet" href="./popup.css" />
+
+  </head>
+  <body>
+      
+
+
+    <h1>Glance</h1>
+    <p>
+      Translate pages to bionic reading, beneficial to neurodiverse readers.
+    </p>
+    <form>
+      <label id="font_size_label" for="font_size" style="font-size: 14px"
+        >Font size</label
+      >
+      <label id="font_size_output">18</label>
+      <input type="range" min="10" max="30" value="20" id="font_size" />
+      <button id="convert">Convert page</button>
+    </form>
+
+    <!--Add footer with social icons-->
+    <div class="footer">
+      <a href="https://github.com/Daim-Nickel-Penny/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="32px"/>
+      </a>
+      <!--Add twitter icon-->
+      <a href="https://twitter.com/i_am_daim" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25232.png" alt="twitter" width="32px"/>
+     </a>
+
+    <script src="index.js"></script>
+  </body>
+</html>

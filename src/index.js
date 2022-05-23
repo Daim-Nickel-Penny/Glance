@@ -1,6 +1,5 @@
 document.getElementById("convert").addEventListener("click", async () => {
   let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-
   chrome.scripting.executeScript({
     target: { tabId: tab.id },
     function: convertPageToBionic,
@@ -31,12 +30,13 @@ function convertPageToBionic() {
   link.type = "text/css";
   link.rel = "stylesheet";
   link.href =
-    "//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,500,600,650,700,800,900";
-  document.head.appendChild(link);
+    "//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900";
+
+  https: document.head.appendChild(link);
 
   chrome.storage.sync.get("font_size", ({ font_size }) => {
     var style = document.createElement("style");
-    style.textContent = `* { font-family: 'Open Sans' !important; font-weight: 100 !important; color: #333 !important; } p { font-size: ${font_size}px; } b { font-weight: 650 !important } `;
+    style.textContent = `* { font-family: 'Open Sans' !important; font-weight: 100 !important; color: #333 !important; line-spacing: 12px !important } p { font-size: ${font_size}px; } b { font-weight: 650 !important } `;
     document.head.appendChild(style);
   });
 
