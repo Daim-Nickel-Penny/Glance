@@ -120,5 +120,48 @@ footer {
   display: flex;
   justify-content: center;
 }
+footer > a {
+  margin: 0px 38px;
+}
 
-/*add style to footer icons*/
+/**/
+.navbar {
+  background-color: #5865f2;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 15px;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar > a > button {
+  margin: 0px 38px;
+  background-color: white;
+  color: #000;
+  border-radius: 5px;
+  border-color: antiquewhite;
+  padding: 5px;
+  margin-top: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.navbar > a > button:hover {
+  background-color: #eb459e;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
