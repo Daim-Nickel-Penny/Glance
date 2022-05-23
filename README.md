@@ -9,7 +9,7 @@
 ## Download Link : Version 1.0.0
 
 ![Download](https://img.shields.io/badge/download-zip-blue)
-Link to download the extension: <a href=""></a>
+Link to download the extension: <a href="https://github.com/Daim-Nickel-Penny/Glance/Glance-main.zip" target="_blank"></a>
 
 # Project Title
 
@@ -34,7 +34,7 @@ Other things to include:
 
     "NodeJs":  "^11.0.0"
 
-## How to test the software
+## How to test the extension?
 
 1. Vist [chrome://extensions](chrome://extensions) in your browser
 2. Toggle **Developer Mode On** from the top-right of the window.
