@@ -6,7 +6,7 @@
 
 ## ![Chrome Extension](https://badgen.net/chrome-web-store/v/ckkdlimhmcjmikdlpkmbgfkaikojcbjk) ![Mozilla](https://badgen.net/amo/v/markdown-viewer-chrome) ![Status Up](https://badgen.net/uptime-robot/status/m780862024-50db2c44c703e5c68d6b1ebb) ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
-## Download Link
+## Download Link : Version 1.0.0
 
 ![Download](https://img.shields.io/badge/download-zip-blue)
 Link to download the extension: <a href=""></a>
