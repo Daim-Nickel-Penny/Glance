@@ -9,7 +9,7 @@
 ## Download Link : Version 1.0.0
 
 ![Download](https://img.shields.io/badge/download-zip-blue)
-Link to download the extension: <a href="https://github.com/Daim-Nickel-Penny/Glance/Glance-main.zip" target="_blank">here</a>
+Link to download the extension: <a href="https://github.com/Daim-Nickel-Penny/Glance/download/Glance-main.zip" target="_blank">here</a>
 
 # Project Title
 
